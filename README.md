@@ -7,7 +7,7 @@
  
  When pathfinding begins, the program will attempt to use the selected pathfinding algorithm to navigate from the source tile to reach the destination tile. If the attempt succeeds, the tiles checked and path taken will be displayed on screen, along with the time taken (ms) for the algorithm to complete. If the attempt fails, a message will appear informing the user of this.
  
- The user may also import and export custom tile maps for later use. There are two versions of the program - the original has a limit to the number of unique tiles a tile map may contain, where as the second version has no such limit (do note however that importing images may be slow!).
+ The user may also import and export custom tile maps for later use. There are two versions of the program - the original has a limit to the number of unique tiles a tile map may contain, whereas the second version has no such limit (do note however that importing images may be slow!).
  
  See "How to use pathfinding program.txt" for instructions on how to use the program, "Interactive, Visual Comparison of Single-Source, Single-Destination, Shortest Path Pathfinding Algorithms.pdf" for the full documentation, and "ORIGINAL FINAL SOURCE CODE.txt" for the source code.
  
