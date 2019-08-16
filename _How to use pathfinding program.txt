@@ -1,0 +1,27 @@
+HOW TO USE PROGRAM:
+(To exit program: File - Exit)
+
+TABS:
+    Screen - Maximise - Maximises map size
+             Path points mode - Enables adding/removing of points to pathfind between (Must have 2)
+             Each screen will run its own set pathfinding algorithm when pathfinding is started
+
+    Tiles - Left-click tile square = Select tileType
+            Right-click tile square = Change tileType colour (Only for custom tileTypes)
+            Weight = Cost = How difficult it is to move through a tile
+            (Note: Black tile = -1 weight = Impassable. All other tileTypes must have positive weight)
+
+    Output - Where program state changes are output. Also outlines code structure
+
+MAP:
+    Left-Click = Add
+    Right-Click = Remove    (Can hold mouse button for quick adding/removing)    
+    Middle-Click = Fill     (TileTypes only)
+    
+    Can only add path points if in 'Screen' tab (and mode ON)
+    Can only add tileTypes if in 'Tiles' tab
+    Can only edit map if tiles are all set (Green)
+
+PATHFINDING:
+    Start pathfinding at bottom right of screen
+    Must RESET before you can further edit map

@@ -1,0 +1,12 @@
+﻿Open Visual Studio
+File > New > Project from Existing Code
+
+C#
+
+Select this folder
+Give it a name
+Output type: Windows Application
+
+On 'Solution Explorer' tab (To the right), double click the .cs file
+
+Enjoy ☺
